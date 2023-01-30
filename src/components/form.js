@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = styled.div ` box-sizing: border-box; max-width: 410px; margin: 0 auto; padding: 0 2rem; display: flex; flex-direction: column; align-items: center;`;
+const Card = styled.div `box-sizing: border-box; max-width: 410px; margin: 0 auto; padding: 0 2rem; display: flex; flex-direction: column; align-items: center;`;
 
 const Form = styled.form `display: flex; flex-direction: column; width: 100%;`;
 

@@ -10,11 +10,10 @@ function App() {
           <p class="subtitle">by Boom.dev</p>
         </div>
       </section>
-      <div class="container is-fullhd">
         <LoginForm/>
-      </div>
     </div>
   );
 }
 
 export default App;
+/*     <div class="container is-fullhd"> */
