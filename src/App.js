@@ -1,11 +1,18 @@
 import "./App.css";
-import LoginForm from "./components/form";
+import React from 'react';
+import { Card, Form, Input, Button } from './components/form';
 
 function App() {
   return (
-        <LoginForm/>
-  );
+    <Card>
+    <Form>
+    <Input type="email" placeholder="Email" />
+    <Input type="password" placeholder="Password" />
+    <Button type="submit">Login</Button>
+    </Form>
+    </Card>
+    );
 }
+    
 
 export default App;
-/*     <div class="container is-fullhd"> */

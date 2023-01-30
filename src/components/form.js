@@ -1,5 +1,4 @@
 //implement the styled-components logic here.
-import React from 'react';
 import styled from 'styled-components';
 
 const Card = styled.div `box-sizing: border-box; max-width: 410px; margin: 0 auto; padding: 0 2rem; display: flex; flex-direction: column; align-items: center;`;
@@ -20,17 +19,3 @@ font-size: 0.8rem;
 cursor: pointer;`;
 
 export { Card, Form, Input, Button };
-
-const LoginForm = () => {
-    return (
-    <Card>
-    <Form>
-    <Input type="email" placeholder="Email" />
-    <Input type="password" placeholder="Password" />
-    <Button type="submit">Login</Button>
-    </Form>
-    </Card>
-    );
-    };
-    
-export default LoginForm;
