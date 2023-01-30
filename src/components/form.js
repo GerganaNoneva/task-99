@@ -20,3 +20,17 @@ font-size: 0.8rem;
 cursor: pointer;`;
 
 export { Card, Form, Input, Button };
+
+const LoginForm = () => {
+    return (
+    <Card>
+    <Form>
+    <Input type="email" placeholder="Email" />
+    <Input type="password" placeholder="Password" />
+    <Button type="submit">Login</Button>
+    </Form>
+    </Card>
+    );
+    };
+    
+export default LoginForm;
