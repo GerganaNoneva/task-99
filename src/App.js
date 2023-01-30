@@ -4,6 +4,7 @@ import { Card, Form, Input, Button } from './components/form';
 
 function App() {
   return (
+    <>
     <Card>
     <Form>
     <Input type="email" placeholder="Email" />
@@ -11,6 +12,7 @@ function App() {
     <Button type="submit">Login</Button>
     </Form>
     </Card>
+    </>
     );
 }
     
